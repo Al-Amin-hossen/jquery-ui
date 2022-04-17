@@ -1,0 +1,74 @@
+/* Common Css */
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+#drag{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+#draggable { 
+    width: 120px; 
+    height: 120px; 
+    padding: 0.5em; 
+    float: left; 
+    margin: 10px 10px 10px 0; 
+}
+#droppable { 
+    width: 200px; 
+    height: 200px; 
+    padding: 0.5em; 
+    float: left; 
+    margin: 10px; 
+}
+.drop-wrap{
+    overflow: hidden;
+}
+#resizable { 
+    width: 250px; 
+    height: 150px; 
+    padding: 0.5em; 
+}
+  #resizable h3 { 
+    text-align: center; 
+    margin: 0; 
+}
+#feedback { 
+    font-size: 1em; 
+}
+#selectable .ui-selecting { 
+    background: #FECA40;
+}
+#selectable .ui-selected { 
+    background: #F39814; 
+    color: white; 
+}
+#selectable, #sortable { 
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    width: 60%; 
+}
+#selectable li { 
+    margin: 3px; 
+    padding: 0 10px;
+}
+#amount{
+    border:0;
+    color:#f6931f;
+    font-weight:bold;
+}
+#effect{
+    width: 400px;
+}
+#container {
+    overflow: hidden;
+    position: relative;
+    width: 500px;
+    height: 400px;
+  }
+ 
+  img {
+    position: absolute;
+  }

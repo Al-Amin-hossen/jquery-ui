@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Care Point</title>
+  <!-- fonts link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- Font awesome -->
+  <link rel="stylesheet" href="../css/all.min.css">
+  <!-- css links -->
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <!-- Custom css -->
+  <link rel="stylesheet" href="../css/style.css">
+  <!-- Media Css -->
+  <link rel="stylesheet" href="../css/media.css">
+
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent" aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="widget.html">Widgets</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/effects.html">Effects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/utilities.html">Utilities</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div class="container">
+    <h1 class="text-success">Accordion</h1>
+    <div id="accordion">
+        <h2>Question One</h2>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis deleniti nesciunt eum doloribus, nostrum totam. Ex quisquam dolor repellat voluptatibus aliquid asperiores iusto voluptas, soluta dolore. Veniam, eum assumenda. Expedita!</p>
+        </div>
+        <h2>Question Two</h2>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis deleniti nesciunt eum doloribus, nostrum totam. Ex quisquam dolor repellat voluptatibus aliquid asperiores iusto voluptas, soluta dolore. Veniam, eum assumenda. Expedita!</p>
+        </div>
+        <h2>Question Three</h2>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis deleniti nesciunt eum doloribus, nostrum totam. Ex quisquam dolor repellat voluptatibus aliquid asperiores iusto voluptas, soluta dolore. Veniam, eum assumenda. Expedita!</p>
+        </div>
+        <h2>Question Four</h2>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis deleniti nesciunt eum doloribus, nostrum totam. Ex quisquam dolor repellat voluptatibus aliquid asperiores iusto voluptas, soluta dolore. Veniam, eum assumenda. Expedita!</p>
+        </div>
+    </div>
+    <h1 class="text-success">Autocomplete</h1>
+    <div class="ui-widget">
+        <label for="tags">Tags: </label>
+        <input id="tags">
+    </div>
+      
+    <h1 class="text-success">Date Picker</h1>
+    <p>Date: <input type="text" id="datepicker"></p>
+
+    <p>
+        <label for="amount">Price range:</label>
+        <input type="text" id="amount" readonly >
+    </p>
+    <div id="slider-range"></div>
+
+
+    <h1 class="text-success">Tabs</h1>
+    <div id="tabs">
+        <ul>
+          <li><a href="#tabs-1">Tab One</a></li>
+          <li><a href="#tabs-2">Tab Two</a></li>
+          <li><a href="#tabs-3">Tab Three</a></li>
+        </ul>
+        <div id="tabs-1">
+          <p class="text-primary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum sunt sed accusantium sint dolorum obcaecati adipisci explicabo quisquam, porro beatae quasi nihil voluptatibus laborum animi architecto distinctio atque reiciendis cumque! Mollitia asperiores iusto fugiat tempore dolorem consequuntur officiis hic quasi?</p>
+        </div>
+        <div id="tabs-2">
+            <p class="text-success">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum sunt sed accusantium sint dolorum obcaecati adipisci explicabo quisquam, porro beatae quasi nihil voluptatibus laborum animi architecto distinctio atque reiciendis cumque! Mollitia asperiores iusto fugiat tempore dolorem consequuntur officiis hic quasi?</p>
+        </div>
+        <div id="tabs-3">
+            <p class="text-danger">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum sunt sed accusantium sint dolorum obcaecati adipisci explicabo quisquam, porro beatae quasi nihil voluptatibus laborum animi architecto distinctio atque reiciendis cumque! Mollitia asperiores iusto fugiat tempore dolorem consequuntur officiis hic quasi?</p>
+        </div>
+      </div>
+
+
+      <h1 class="text-success">Tooltip</h1>
+      <form>
+        <fieldset>
+          <div>
+            <label for="firstname">Firstname</label>
+            <input id="firstname" name="firstname" title="Enter your firstname.">
+          </div>
+          <div>
+            <label for="lastname">Lastname</label>
+            <input id="lastname" name="lastname" title="Enter your lastname.">
+          </div>
+          <div>
+            <label for="address">Address</label>
+            <input id="address" name="address" title="Enter your address.">
+          </div>
+        </fieldset>
+      </form>
+
+  </div>
+
+
+
+
+
+  <!-- js links -->
+  <!-- jquery -->
+  <script src="../js/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+  <!-- Font awesome -->
+  <script src="../js/all.min.js"></script>
+  <!-- Popper js -->
+  <script src="../js/popper.min.js"></script>
+  <!-- boostrap js -->
+  <script src="../js/bootstrap.js"></script>
+  <!-- Custom js -->
+  <script src="../js/script.js"></script>
+</body>
+</html>

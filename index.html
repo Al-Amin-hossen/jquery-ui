@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Care Point</title>
+  <!-- fonts link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- Font awesome -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-- css links -->
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <!-- Custom css -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Media Css -->
+  <link rel="stylesheet" href="css/media.css">
+
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent" aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/widget.html">Widgets</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/effects.html">Effects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/utilities.html">Utilities</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div class="container">
+    <h1 class="text-success">Draggable</h1>
+    <div id="drag" class="bg-success text-danger">
+      <h2>Draggable content</h2>
+    </div>
+    <div class="drop-wrap">
+      <h1 class="text-success">Droppable</h1>
+      <div id="draggable" class="ui-widget-content bg-danger text-success">
+        <p>Draggable content</p>
+      </div>
+      
+      <div id="droppable" class="ui-widget-header">
+        <p>Drop here</p>
+      </div>
+    </div><br>
+    <h1 class="text-success">Resizable</h1>
+    <div id="resizable" class="ui-widget-content">
+      <h3 class="ui-widget-header">Resizable</h3>
+    </div>
+    <h1 class="text-success">Selectable</h1>
+    <ul id="selectable">
+      <li class="ui-widget-content"><p>Select Item 1</p></li>
+      <li class="ui-widget-content"><p>Select Item 2</p></li>
+      <li class="ui-widget-content"><p>Select Item 3</p></li>
+      <li class="ui-widget-content"><p>Select Item 4</p></li>
+      <li class="ui-widget-content"><p>Select Item 5</p></li>
+      <li class="ui-widget-content"><p>Select Item 6</p></li>
+      <li class="ui-widget-content"><p>Select Item 7</p></li>
+      <li class="ui-widget-content"><p>Select Item 8</p></li>
+      <li class="ui-widget-content"><p>Select Item 9</p></li>
+    </ul>
+    <h1 class="text-success">Sortable</h1>
+    <ul id="sortable">
+      <li class="ui-state-default"><p>Sortable Item 1</p></li>
+      <li class="ui-state-default"><p>Sortable Item 2</p></li>
+      <li class="ui-state-default"><p>Sortable Item 3</p></li>
+      <li class="ui-state-default"><p>Sortable Item 4</p></li>
+      <li class="ui-state-default"><p>Sortable Item 5</p></li>
+      <li class="ui-state-default"><p>Sortable Item 6</p></li>
+      <li class="ui-state-default"><p>Sortable Item 7</p></li>
+      <li class="ui-state-default"><p>Sortable Item 8</p></li>
+      <li class="ui-state-default"><p>Sortable Item 9</p></li>
+    </ul>
+
+  </div>
+
+
+
+
+
+  <!-- js links -->
+  <!-- jquery -->
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+  <!-- Font awesome -->
+  <script src="js/all.min.js"></script>
+  <!-- Popper js -->
+  <script src="js/popper.min.js"></script>
+  <!-- boostrap js -->
+  <script src="js/bootstrap.js"></script>
+  <!-- Custom js -->
+  <script src="js/script.js"></script>
+</body>
+</html>
